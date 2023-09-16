@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+.header
+{
+    background-color: #89c6cc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    /* margin-top:20px;  */
+    padding: 7px;
+    top: 0%;
+    position: sticky;
+    z-index: 1;
+
+}
+.logo img
+{
+    width: 16rem;
+    margin-top: -5px;
+    margin-left: 20px;
+    margin-bottom: -5px;
+}
+.links ul
+{
+    display: flex; 
+    list-style-type: none;   
+}
+.links ul li a
+{
+    color: black;
+    margin-left: 3rem;
+    font-size: 25px;
+    position: relative;
+    text-decoration: none;
+    border-right: 2px solid black;
+    padding-right: 35px;
+}
+.icon div
+{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#menubars
+{
+    display: none;
+}
+
+/*----------------------main--------------------*/
+
+ .back
+{
+    padding: 2rem 7%;
+}
+.main-home
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+    /* margin-top: 6%; */
+}
+ .inner-home
+{
+    flex: 1 1 45rem; 
+    
+}
+ .inner-content p
+{
+    font-size: 30px;
+    color: black;
+    padding: 0 6rem;
+} 
+
+/*----------------------section-------------------*/
+
+.heading h1
+{
+    text-align: center;
+    border: 1px solid black;
+    background-color: antiquewhite;
+    border-radius: 20px ;
+
+    
+}
+.heading ol li
+{
+    
+    font-size: 1.5rem;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+
+}
+
+/* ---------------------------elders asan page------------------------- */
+
+.elders-main>h1 {
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 2rem;
+    background: #eaeaea;
+}
+
+.elders-main>p {
+    padding: 0px 120px 30px 120px;
+    text-align: center;
+    background: #eaeaea;
+}
+
+.elders-asan {
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.elders-asan>h1 {
+    font-size: 2rem;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    border: 2px solid black;
+    background-color:  antiquewhite;
+    border-radius: 20px;
+}
+
+.elders-asan>img {
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.elders-asan>h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+.elders-asan>ol {
+    margin-left: 25px;
+}
+
+.elders-asan>ol>li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.elders-asan>.elder-benefit {
+    font-size: 1.1rem;
+}
+
+/* ------------------starting pose page---------------- */
+.startpose-content {
+    width: 70%;
+    margin: auto;
+}
+
+.startpose-content>.p1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.start-poses>h3 {
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+
+.content {
+    display: flex;
+}
+
+.content>img {
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.content>ol {
+    margin-left: 50px;
+    font-size: 1.1rem;
+}
+
+.content>ol>li {
+    margin-bottom: 10px;
+}
+
+/* ---------------poses inner pages------------- */
+.inpose-heading {
+    padding-top: 30px;
+    /* background: #ebe9e5; */
+    text-align: center;
+}
+
+.inpose-heading>h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+
+}
+
+.inpose-heading>img {
+    width: 700px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.inpose-heading>div>video
+{
+    width: 700px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.inpose-text {
+    width: 70%;
+    margin: auto;
+}
+
+.inpose-text>h2 {
+    margin-top: 30px;
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    padding-left: 20px;
+    background-color: antiquewhite;
+}
+
+.inpose-text>ol {
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+
+.inpose-text>ol>li {
+    margin-bottom: 15px;
+}
+
+.inpose-text>p {
+    font-size: 1.2rem;
+}
+
+/* ----------------suryanamaskar----------------- */
+.suryanamaskar>h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    font-size: 1.8rem;
+    text-align: center;
+    background: #eaeaea;
+}
+
+.surya-positions {
+    margin-top: 20px;
+}
+
+.position-content {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.position-content>h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    padding-left : 20px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+}
+
+.position-content>img {
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.position-content>ul{
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+
+.position-content>p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.surya-positions>h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 1.8rem;
+    width: 60%;
+    margin: auto;
+}
+
+.surya-positions>p {
+    width: 60%;
+    margin: auto;
+    font-size: 1.1rem;
+}
+
+/* ------------------------footer------------------------ */
+.footer{
+   margin-top: 10vh;
+   background: #89c6cc;
+   border-radius: 10px;
+}
+
+.footer-content{
+    padding: 3vh 0vh 3vh 0vh;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.footer-contect{
+    font-size: 1.2rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.follow{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 7px;
+    font-size: 1.2rem;
+    width: 50%;
+}
+
+.social-link i{
+    font-size: 1.7rem;
+    padding: 0px 10px 0px 10px;
+}
+
+.copyright{
+    background-color: black;
+    color: white;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ------------------------category----------------------- */
+
+ .category-sec {
+    
+    padding: 40px 50px 20px 50px;
+    margin: auto;
+    
+}
+
+.category-heading {
+    font-size: 1.7rem;
+    border-bottom: 3px solid black;
+    display: flex;
+    justify-content: center;
+    color: black;
+    cursor: pointer;
+}
+
+.category-heading h2{
+    font-weight: 700;
+}
+
+.category {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly; 
+    margin-top: 5vh;
+}
+
+.card {  
+    border-radius: 50px;  
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 15px 15px; 
+    width: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    margin: 20px;
+    text-decoration: none; 
+    transition: all 0.5s ease;
+
+}
+.category  h3{
+     margin-top: 20px;
+    font-size: 1.7rem;
+    color: black;
+
+}
+.card h3{
+    margin-top: 20px;
+    font-size: 1.7rem;
+    color: black;
+}
+.card video
+{
+    /* height: 250px; */
+     border-radius: 20px;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px; 
+
+}
+
+.card img {
+     /* width: 310px; */
+    height: 250px;
+     border-radius: 10px; 
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 15px 15px; 
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
